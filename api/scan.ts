@@ -1,6 +1,4 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-export default function handler(req: VercelRequest, res: VercelResponse) {
+export default function handler(req: any, res: any) {
 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -12,12 +10,10 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: "Missing parameters" });
   }
 
-  // Demo scan result
   const results = [
     { port: 80, status: "open", banner: "HTTP Server" },
     { port: 443, status: "open", banner: "HTTPS Server" }
   ];
 
   return res.status(200).json({ results });
-
 }
