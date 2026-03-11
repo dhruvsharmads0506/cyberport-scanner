@@ -112,7 +112,7 @@ Cybersecurity Enthusiast
 <h2>📸 Project Screenshot</h2>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/yourusername/cyberport-scanner/main/screenshots/cyberscan-ui.png" 
+<img src="https://github.com/dhruvsharmads0506/cyberport-scanner/blob/main/screenshots/Screenshot%202026-03-12%20013702.png" 
 alt="CyberPort Scanner UI" width="900">
 </p>
 
