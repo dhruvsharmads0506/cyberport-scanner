@@ -44,8 +44,6 @@ beginners learn about network reconnaissance and cybersecurity tools.
 
 <hr>
 
-
-
 <h2>⚙️ Installation</h2>
 
 <p><b>Clone the repository:</b></p>
@@ -88,6 +86,14 @@ in cybersecurity and network analysis.
 
 <hr>
 
+<h2>⚠️ Note</h2>
+<p>
+Due to network security restrictions on <b>Vercel</b>, the deployed version shows <b>simulated (dummy) scan results</b>.  
+The actual port scanning functionality works correctly when the project is run locally with Node.js backend.
+</p>
+
+<hr>
+
 <h2>⚠️ Disclaimer</h2>
 <p>
 This tool is intended for educational and ethical use only. Do not scan systems or networks without 
@@ -96,13 +102,24 @@ proper authorization. Unauthorized scanning may violate laws or policies.
 
 <hr>
 
-
-
 <h2>👨‍💻 Author</h2>
 <p>
 Dhruv Sharma <br>
 Cybersecurity Enthusiast
 </p>
+
+<hr>
+<h2>📸 Project Screenshot</h2>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/yourusername/cyberport-scanner/main/screenshots/cyberscan-ui.png" 
+alt="CyberPort Scanner UI" width="900">
+</p>
+
+<p align="center">
+CyberPort Scanner interface showing configuration panel, system logs, and detected open ports.
+</p>
+
 <hr>
 <h2>🌐 Live Demo</h2>
 
@@ -111,7 +128,7 @@ Try the live version of CyberPort Scanner:
 </p>
 
 <p align="center">
-<a href="https://cyberport-scanner.netlify.app/" target="_blank">
+<a href="https://cyberport-scanner.vercel.app/" target="_blank">
 <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open%20Project-success?style=for-the-badge">
 </a>
 </p>
